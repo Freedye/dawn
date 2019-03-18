@@ -347,6 +347,7 @@ body {
 
 #tabs ul li[active]:nth-child(2) ~ li:last-child { margin: 0 0 0 35px; }
 #tabs ul li[active]:nth-child(3) ~ li:last-child { margin: 0 0 0 70px; }
+#tabs ul li[active]:nth-child(4) ~ li:last-child { margin: 0 0 0 105px; }
 
 #panels {
     overflow: hidden;
@@ -382,12 +383,18 @@ body {
     --flavour: #5b52e4;
 }
 
+#panels ul:nth-child(4),
+#tabs ul li[active]:nth-child(4) ~ li:last-child {
+    --flavour: #FFFF00;
+}
+
 #panels ul .links {
     box-shadow: inset -1px 0 var(--flavour);
 }
 
 #panels ul:nth-child(2) { background: #fff url("../img/bg-2.gif") repeat center left fixed; }
 #panels ul:nth-child(3) { background: #fff url("../img/bg-3.gif") repeat center left fixed; }
+#panels ul:nth-child(4) { background: #fff url("../img/bg-4.gif") repeat center left fixed; }
 
 #panels ul[active] {
     right: 0;
