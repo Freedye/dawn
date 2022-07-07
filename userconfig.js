@@ -146,7 +146,7 @@ const CONFIG = new Config({
               url: 'https://www.reddit.com/r/startpages/'
             },
             {
-              name: 'r/unixporn',
+              name: 'r/unixporn/',
               url: 'https://www.reddit.com/r/unixporn/'
             },
             {
@@ -154,7 +154,7 @@ const CONFIG = new Config({
               url: 'https://www.reddit.com/r/MechanicalKeyboards/'
             },
             {
-              name: 'r/programming',
+              name: 'r/programming/',
               url: 'https://www.reddit.com/r/programming/'
             }
           ]
@@ -185,7 +185,13 @@ const CONFIG = new Config({
           links: [
             {
               name: 'drive',
-              url: 'https://drive.google.com/'
+              url: 'https://drive.google.com/',
+              icon: 'brand-google-drive'
+            },
+            {
+              name: 'gmail',
+              url: 'https://mail.google.com/mail/u/0/',
+              icon: 'brand-gmail'
             },
             {
               name: 'stallaman',
@@ -218,11 +224,6 @@ const CONFIG = new Config({
           name: 'Google',
           links: [
             {
-              name: 'gmail',
-              url: 'https://mail.google.com/mail/u/0/',
-              icon: 'brand-gmail'
-            },
-            {
               name: 'youtube',
               url: 'https://youtube.com/',
               icon: 'brand-youtube'
@@ -238,15 +239,18 @@ const CONFIG = new Config({
             },
             {
               name: 'reddit',
-              url: 'https://reddit.com/'
+              url: 'https://reddit.com/',
+              icon: 'brand-reddit'
             },
             {
               name: 'tumblr',
-              url: 'https://tumblr.com/'
+              url: 'https://tumblr.com/',
+              icon: 'brand-tumblr'
             },
             {
               name: 'twitter',
-              url: 'https://twitter.com/'
+              url: 'https://twitter.com/',
+              icon: 'brand-twitter'
             },
           ]
         }
