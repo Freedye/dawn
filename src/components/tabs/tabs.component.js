@@ -140,12 +140,18 @@ class Tabs extends Component {
           --flavour: #5b52e4;
       }
 
+      .categories ul:nth-child(4) {
+        --flavour: #FFFF00;
+      }
+
+
       .categories ul .links {
           box-shadow: inset -1px 0 var(--flavour);
       }
 
       .categories ul:nth-child(2) { background: #fff url("../img/bg-2.gif") repeat center left fixed; }
       .categories ul:nth-child(3) { background: #fff url("../img/bg-3.gif") repeat center left fixed; }
+      .categories ul:nth-child(4) { background: #fff url("../img/bg-4.gif") repeat center left fixed; }
 
       .categories ul[active] {
           right: 0;
